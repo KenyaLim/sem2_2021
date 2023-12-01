@@ -1,0 +1,44 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: #C6B997;
+  font-family: times new roman;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+body {
+  font-family: times new roman;
+  background-color: #E2F4FF;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  width: 50%;
+  height: 100%;
+  font-family: times new roman;
+}
+table, td {
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 10px;
+}
+video {
+  width: 100%;
+  height: 56.25%;
+}
+form {
+  background-color: #C6B997;
+}
+footer {
+  background-color: #E7DAB8;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Studi Kasus</title>
+	<script>
+		function validasi(form) {
+			// body...
+			if (form.user.value == "") {
+				alert("Anda belum mengisikan username?");
+				form.user.focus();
+				return(false);
+			}
+			if (form.email.value == "") {
+				alert("Anda belum mengisikan email?");
+				form.user.focus();
+				return(false);
+			}
+		}
+	</script>
+</head>
+<body>
+	<form method=POST action="#" onsubmit="return validasi (this)">
+		<table>
+			<tr>
+				<th colspan="3">Registration Area</th>
+			</tr>
+			<tr>
+				<td>Username</td>
+				<td>:</td>
+				<td><input type="text" name=""></td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td>:</td>
+				<td><input type="email" name=""></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td>:</td>
+				<td><input type="password" name=""></td>
+			</tr>
+			<tr>
+				<td>Retype Password</td>
+				<td>:</td>
+				<td><input type="password" name=""></td>
+			</tr>
+			<tr>
+				<td>Birthday</td>
+				<td>:</td>
+				<td><input type="date" name=""></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Kirim" name=""></td>
+				<td></td>
+				<td><input type="reset" value="Batal" name=""></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>

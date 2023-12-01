@@ -1,0 +1,58 @@
+#box1{
+ width: 1000px;/*Lebar box*/
+ height: 780px;/*Tinggi box*/
+ border: 1px solid #cdcdcd; /*Border box*/
+ background: #aaf3f6;/*Background/warna box*/
+ margin: auto;/*Supaya box berada di tengah*/
+}
+#box2{
+ width: 980px;
+ height: 150px;
+ border: 1px solid #cdcdcd;
+ background: #557555;
+ margin: auto;
+ margin-top: 5px;/*jarak box dengan box di atasnya*/
+}
+#box3{
+ width: 980px;
+ height: 40px;
+ border: 1px solid #cdcdcd;
+ background: #4e4ef2;
+ margin: auto;
+ margin-top: 5px;
+}
+#box4{
+ width: 980px;
+ height: 500px;
+ border: 1px solid #cdcdcd;
+ background: #cc2233;
+ margin: auto;
+ margin-top:5px;
+}
+#box5{
+ width: 240px;
+ height: 485px;
+ border: 1px solid #cdcdcd;
+ background: #fa9933;
+ float: left;/*Supaya box berada di pinggir kiri*/
+ margin-left: 5px;
+ margin-top: 5px;
+}
+#box6{
+ width: 720px;
+ height: 485px;
+ border: 1px solid #cdcdcd;
+ background: #e6e2e2;
+ float: left;
+ margin-left: 5px;
+ margin-top: 5px;
+ margin-right: 5px;
+}
+#box7{
+ width: 980px;
+ height: 30px;
+ border: 1px solid #cdcdcd;
+ background: #00ff55;
+ margin: auto;
+ margin-top: 5px;
+}
